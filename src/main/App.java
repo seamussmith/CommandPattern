@@ -4,6 +4,8 @@ public class App
 {
     public static void main(String[] args) 
     {
-        System.out.println("Hello, World!");
+        var l = new Light();
+        var c = new LambdaCommand(() -> l.on());
+        c.execute();
     }
 }

@@ -7,7 +7,7 @@ public class LightSwitchTurnOnCommand implements ICommand {
     }
     @Override
     public void execute() {
-
+        light.on();
     }
     
 }
